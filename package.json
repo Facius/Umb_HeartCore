@@ -1,0 +1,19 @@
+{
+  "name": "umbracos-headless-koa-sample",
+  "version": "0.1.0",
+  "description": "Umbraco Headless Koa sample",
+  "private": true,
+  "scripts": {
+    "start": "ts-node-dev --respawn app.ts"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@umbraco/headless-client": "0.5.0"
+  },
+  "devDependencies": {
+    "@types/node": "^13.5.1",
+    "ts-node-dev": "^1.0.0-pre.44",
+    "typescript": "^3.7.2"
+  }
+}
